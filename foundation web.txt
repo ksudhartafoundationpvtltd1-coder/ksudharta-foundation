@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ksudharta Foundation</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+header {
+  background: linear-gradient(45deg, #833ab4, #fd1d1d, #fcb045);
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background: #111;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+.hero {
+  text-align: center;
+}
+
+.btn {
+  background: #fd1d1d;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  background: #111;
+  text-align: center;
+  padding: 20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Ksudharta Foundation</h1>
+<p>Serving Humanity with Compassion</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#gallery">Gallery</a>
+<a href="#donate">Donate</a>
+<a href="#volunteer">Join Us</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="home" class="hero">
+<h2>Welcome to Ksudharta Foundation</h2>
+<p>We aim to bring positive change and support those in need.</p>
+<button class="btn">Learn More</button>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+<div class="gallery">
+<img src="https://via.placeholder.com/300">
+<img src="https://via.placeholder.com/300">
+<img src="https://via.placeholder.com/300">
+<img src="https://via.placeholder.com/300">
+</div>
+</section>
+
+<section id="donate">
+<h2>Donate</h2>
+<p>Your contribution helps us make a difference.</p>
+<button class="btn">Donate Now</button>
+</section>
+
+<section id="volunteer">
+<h2>Join as Volunteer</h2>
+
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="text" placeholder="Address" required>
+<input type="email" placeholder="Email ID" required>
+<input type="tel" placeholder="Phone Number" required>
+<input type="text" placeholder="City" required>
+<input type="text" placeholder="Country" required>
+<button class="btn">Submit</button>
+</form>
+
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Email: ksudhartafoundation.pvt.ltd1@gmail.com</p>
+<p>Phone: 7982094384</p>
+</section>
+
+<footer>
+<p>© 2026 Ksudharta Foundation</p>
+</footer>
+
+</body>
+</html>
